@@ -20,9 +20,10 @@ class ViewController: UIViewController {
 //        root.right?.right = TreeNode(6)
 //        let solution: Problem114Solution = Problem114Solution()
 //        solution.flatten(root)
-        let l1: ListNode = ListNode(2)
-        let l2: ListNode = ListNode(1)
-        let result: ListNode? = Problem021Solution.mergeTwoLists(l1, l2)
+//        let l1: ListNode = ListNode(2)
+//        let l2: ListNode = ListNode(1)
+//        let result: ListNode? = Problem021Solution.mergeTwoLists(l1, l2)
+
         print("sunny")
         // Do any additional setup after loading the view, typically from a nib.
     }

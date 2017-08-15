@@ -23,8 +23,15 @@ class ViewController: UIViewController {
 //        let l1: ListNode = ListNode(2)
 //        let l2: ListNode = ListNode(1)
 //        let result: ListNode? = Problem021Solution.mergeTwoLists(l1, l2)
-
-        print("sunny")
+        
+        let l: ListNode = ListNode(1)
+        l.next = ListNode(2)
+        l.next?.next = ListNode(3)
+        l.next?.next?.next = ListNode(4)
+        let soln: Problem382Solution = Problem382Solution(l)
+        let randomVal: Int = soln.getRandom()
+        
+        print("Random node value is \(randomVal)")
         // Do any additional setup after loading the view, typically from a nib.
     }
 

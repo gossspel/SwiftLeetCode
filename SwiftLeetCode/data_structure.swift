@@ -29,3 +29,21 @@ class TreeNode {
         self.right = nil
     }
 }
+
+class UndirectedGraphNode: Hashable {
+    var label: Int
+    var neighbors: [UndirectedGraphNode]
+    
+    var hashValue: Int {
+        return self.label.hashValue
+    }
+    
+    static func == (lhs: UndirectedGraphNode, rhs: UndirectedGraphNode) -> Bool {
+        return lhs.hashValue == rhs.hashValue
+    }
+    
+    init(_ label: Int) {
+        self.label = label
+        self.neighbors = []
+    }
+}

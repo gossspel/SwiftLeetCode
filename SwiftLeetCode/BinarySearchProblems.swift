@@ -1,14 +1,15 @@
 //
-//  problems_061_to_070.swift
+//  BinarySearchProblems.swift
 //  SwiftLeetCode
 //
-//  Created by Sunny Chan on 8/14/17.
+//  Created by Sunny Chan on 9/7/17.
 //  Copyright © 2017 sunnystudio. All rights reserved.
 //
 
 import Foundation
 
-class Problem069Solution {
+class LeetCode069Solution {
+    // https://leetcode.com/problems/sqrtx/description/
     func getSqrt(_ x: Int) -> Int {
         guard x > 1 else {
             return x

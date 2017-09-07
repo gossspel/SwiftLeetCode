@@ -97,10 +97,10 @@
 		6BF6E5D21F44A0A800B120F4 /* problems_by_topics */ = {
 			isa = PBXGroup;
 			children = (
+				6B1A728E1F61AD3300836FE3 /* BinarySearchProblems.swift */,
 				6BF6E5D51F44AF7700B120F4 /* BinarySearchTreeProblems.swift */,
 				6BF6E5D31F44A0E700B120F4 /* BreadthFirstSearchProblems.swift */,
 				6B6229CD1F4603E600C69A0C /* LinkedListProblems.swift */,
-				6B1A728E1F61AD3300836FE3 /* BinarySearchProblems.swift */,
 			);
 			name = problems_by_topics;
 			sourceTree = "<group>";
